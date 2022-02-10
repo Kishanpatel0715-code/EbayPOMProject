@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name= "FREE ebay Application Test Automation Test Suite" parallel="tests" thread-count="2" verbose="2" >
+	<listeners>
+		<listener class-name="ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Free ebay App Test Cases">
+		<packages>
+			<package name="tests.*"/>
+		</packages>
+	</test>
+</suite>
